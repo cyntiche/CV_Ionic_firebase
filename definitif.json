@@ -1,0 +1,137 @@
+{
+  "informations":
+      {
+          "noms": "Ex: Nyobe",
+          "prenoms": "Ex: Le resistant",
+          "dateNaissance": "Ex: 01/01/2000",
+          "lieuNaissance": "Ex: Douala",
+          "adresse": "Ex: Rue de la paix",
+          "contacts": [
+            {
+              "id": 1,
+              "contact": "Ex: 689876543"
+            },
+            {
+              "id": 2,
+              "contact": "Ex: 689876543"
+            }
+          ],
+          "occupation": "Ex: Web developper",
+          "photo": "url de l'image",
+          "description": "Ex: Le resistant est un jeune homme de 18 ans, très jeune, qui a décidé de se lancer dans le monde de la programmation.",
+          "emails": [
+            {
+              "id": 1,
+              "email": "Ex: leresistan@gmail.com"
+            },
+            {
+              "id": 2,
+              "email": "Ex: leresistan@yahoo.com"
+            }
+          ]
+      },
+  "comptes": [
+       {
+          "id": 1,
+          "nom": "Ex: Github",
+          "lien": "Ex: https://github.com/leresistant"
+        },
+        {
+          "id": 2,
+          "nom": "Ex: Stackoverflow",
+          "lien": "Ex: https://stackoverflow.com/leresistant"
+        },
+        {
+          "id": 3,
+          "nom": "Ex: Linkedin",
+          "lien": "Ex: https://www.linkedin.com/in/leresistant"
+        }
+  ],
+  "formations": [
+      {
+          "id": 1,
+          "diplome": "Ex: LICENCE 2 ICT4D",
+          "ecole": "Ex : universite de yaounde 1",
+          "periode": "Ex: 2020-present"
+        },
+        {
+          "id": 2,
+          "diplome": "Ex: LICENCE 1 ICT4D",
+          "ecole": "Ex: universite de yaounde 1",
+          "periode": "Ex: 2019-2020"
+        },
+        {
+          "id": 3,
+          "diplome": "Ex: BAC C",
+          "ecole": "Ex: universite de yaounde 1",
+          "periode": "Ex: 2018-2019"
+        }
+  ],
+  "experiences": [
+      {
+          "id": 1,
+          "titre": "Ex: Developpeur web",
+          "entreprise": "Ex: Google",
+          "periode": "Ex: 2020-present",
+          "details": "Ex: Developpement d'un site web"
+        },
+        {
+          "id": 2,
+          "titre": "Ex: Developpeur Django",
+          "entreprise": "Ex: Google",
+          "periode": "Ex: 2019-2020",
+          "details": "Ex: Application de gestion de stock"
+        },
+        {
+          "id": 3,
+          "titre": "Ex: Developpeur web",
+          "entreprise": "Ex: Google",
+          "periode": "Ex: 2018-2019",
+          "details": "Ex: Conception de l'interface d'administration de Youtube"
+        }
+    ],
+    "competences": [
+      {
+          "id": 1,
+          "nom": "Ex: HTML",
+          "niveau": 80
+        },
+        {
+          "id": 2,
+          "nom": "Ex: CSS",
+          "niveau": 80
+        },
+        {
+          "id": 3,
+          "nom": "Ex: JavaScript",
+          "niveau": 80
+        }
+    ],
+  "langues": [
+      {
+          "id": 1,
+          "nom": "Ex: Anglais",
+          "niveau": 80
+      },
+      {
+          "id": 2,
+          "nom": "Ex: Francais",
+          "niveau": 80
+      },
+      {
+          "id": 3,
+          "nom": "Ex: Espagnol",
+          "niveau": 80
+      }
+  ],
+  "loisirs": [
+      {
+          "id": 1,
+          "nom": "Ex: L'écriture"
+      },
+      {
+          "id": 2,
+          "nom": "Ex: La lecture"
+      }
+  ]
+}
