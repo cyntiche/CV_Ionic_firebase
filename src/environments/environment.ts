@@ -3,7 +3,7 @@
 
 export const environment = {
   production: false,
-  firebaseConfig : {
+  firebase : {
     apiKey: 'AIzaSyCJ-q2wvJ8AjCLiDL2qb2bzdKzBbMGblKk',
     authDomain: 'grp10-tp-ict202-c2bb7.firebaseapp.com',
     projectId: 'grp10-tp-ict202-c2bb7',

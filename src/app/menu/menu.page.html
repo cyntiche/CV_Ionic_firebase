@@ -1,0 +1,50 @@
+<ion-menu contentId="main-content" >
+
+  <ion-header>
+    <ion-toolbar color="danger">
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+     <ion-list id="inbox-list">
+       <ion-list-header>Cyntiche Nguemete</ion-list-header>
+       <ion-note><a href="mailto:cyntichenguemete@gmail.com" target="_blank" rel="noopener noreferrer"> cyntichenguemete@gmail.com</a></ion-note>
+
+
+
+
+           <ion-img slot="start">
+             <ion-img src='linkedin.png'></ion-img>
+           </ion-img>
+
+
+
+       <ion-menu-toggle auto-hide="false" *ngFor="let p of menuPages; let i = index">
+         <ion-item routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected" (click)="onMenuItem(p)">
+           <ion-icon slot="start" [ios]="p.icon + '-outline'" [md]="p.icon + '-sharp'"></ion-icon>
+           <ion-label>{{ p.title }}</ion-label>
+         </ion-item>
+       </ion-menu-toggle>
+     </ion-list>
+
+
+     <ion-button routerLink="/login" expand="full">LOGIN</ion-button>
+   </ion-content>
+   rr
+ </ion-menu> --> ff
+ <ion-router-outlet id="main-content"></ion-router-outlet>
+
+
+
+
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>menu</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+</ion-content>
+ -->

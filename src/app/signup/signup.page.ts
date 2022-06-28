@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { AuthService } from '../sevices/auth.service';
+//import { AuthService } from './services/auth.service';
 import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms';
 
 @Component({
@@ -42,7 +42,7 @@ export class SignupPage implements OnInit {
 
   constructor(
     private router: Router,
-    private authService: AuthService,
+  //  private authService: AuthService,
     private fb: FormBuilder
   ) { }
 
@@ -59,7 +59,7 @@ export class SignupPage implements OnInit {
     });
   }
 
-  signUp(value) {
+/*  signUp(value) {
     this.authService.createUser(value)
       .then((response) => {
         this.errorMsg = '';
@@ -68,7 +68,7 @@ export class SignupPage implements OnInit {
         this.errorMsg = error.message;
         this.successMsg = '';
       });
-  }
+  }*/
 
   goToLogin() {
     this.router.navigateByUrl('login');

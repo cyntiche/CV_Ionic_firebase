@@ -1,13 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
+import { InputModule } from '../component/input.module';
+import { RouterModule } from '@angular/router';
+import { LoginPage } from './login.page';
 import { LoginPageRoutingModule } from './login-routing.module';
 
-import { LoginPage } from './login.page';
-import { InputModule } from '../component/input.module';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { InputModule } from '../component/input.module';
     FormsModule,
     IonicModule,
     InputModule,
-    LoginPageRoutingModule
+    LoginPageRoutingModule,
+    ReactiveFormsModule,
   ],
   declarations: [LoginPage]
 })
